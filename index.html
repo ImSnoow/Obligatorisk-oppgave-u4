@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obligatorisk oppgave</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header><h1>GET clicker</h1></header>
+    
+    <div class="left-sidebar" >
+        <div id="knapp"></div>
+        <button onclick="ti()"         class="upgrades">10 Poeng</button><br>
+        <button onclick="femti()"      class="upgrades">50 Poeng</button><br>
+        <button onclick="hundre()"     class="upgrades">100 Poeng</button><br>
+        <button onclick="femHundre()"  class="upgrades">500 Poeng</button><br>
+        <button onclick="tusen()"      class="upgrades">1000 Poeng</button><br>
+    
+    </div>
+    
+    <main>
+        <img id="img" src="GET.png" width="400px" onclick="doClick()">
+        <div id="app"><div id="border"> </div></div>
+        
+        <img id="hei" src="Terje.png" width="90" style="display:none;" />
+    </main>
+    
+    <div class="right-sidebar"><p>Trykk på bildet for å generere poeng.</p> 
+                            <br> Bruk poeng for å oppgradere!
+        <div class="info">  <li>    10 = +1 </li>
+                            <li>    50 = +2 </li>
+                            <li>    100 = +5 </li>
+                            <li>    500 = +10 </li>
+                            <li>    1000 = +50 </li>
+        </div>  
+                            <br><div>prøv å kjøpe tusen poengs oppgradering!</div>
+    </div>
+    
+    <footer>Obligatorisk oppgave Uke 4 - Mats Reine</footer>
+
+</div>
+
+  
+    
+
+
+<script src="script.js"></script>
+</body>
+</html>
